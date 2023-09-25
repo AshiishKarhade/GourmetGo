@@ -1,1 +1,1 @@
-# GourmetGo - Django based online marketplace for Food Lovers
+# GourmetGo - Django based online food delivery application
