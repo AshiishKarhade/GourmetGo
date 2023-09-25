@@ -1,0 +1,1 @@
+# GourmetGo - Django based online marketplace for Food Lovers
