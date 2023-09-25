@@ -480,7 +480,7 @@ poetry.toml
 
 # ruff
 .ruff_cache/
-
+.idea/dataSources.xml
 # LSP config files
 pyrightconfig.json
 
