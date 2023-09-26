@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -84,6 +85,9 @@ DATABASES = {
         'HOST': config('DBHOST')
     }
 }
+
+# Tell Django to use our Custom USER Model instead of it's default User model
+AUTH_USER_MODEL = 'accounts.User'
 
 
 # Password validation
