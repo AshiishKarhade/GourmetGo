@@ -97,7 +97,3 @@ class UserProfile(models.Model):
         return self.user.email
 
 
-
-
-
-
