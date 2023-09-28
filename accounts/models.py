@@ -48,7 +48,7 @@ class User(AbstractBaseUser):
     last_name = models.CharField(max_length=50)
     email = models.EmailField(max_length=100, unique=True)
     username = models.CharField(max_length=60, unique=True)
-    phone_number = models.CharField(max_length=13, unique=True, blank=True)
+    phone_number = models.CharField(max_length=13, blank=True)
     role = models.PositiveSmallIntegerField(choices=ROLE_CHOICE, blank=True, null=True)
 
     # required fields
