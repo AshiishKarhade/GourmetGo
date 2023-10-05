@@ -19,6 +19,8 @@ def register_user(request):
             user.role = User.CUSTOMER
             user.save()
             return redirect('registerUser')
+        else:
+            print(form.errors)
     else:
         form = UserForm
 
