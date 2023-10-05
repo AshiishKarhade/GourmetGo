@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def register_user(request):
-    pass
+    return render(request, 'accounts/register_user.html')
 
 
 def register_restaurant(request):
